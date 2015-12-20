@@ -5,10 +5,12 @@ This is my solution of the course assignment.
 The description of the original problem is below.
 
 *__Please note to the reviewers:__  PA1_template.Rmd contains the code,  it is shown in a "fancy" format on github.  
- PA1_template.html shows the results of the compilation of the .Rmd file.y
+ PA1_template.html shows the results of the compilation of the .Rmd file.
+ 
  I often find reviewers that arbitrarily claim that my code does not run, even when a present the output generated.
  These revies are incorrect and unfair,  so I have a request for you:
- __Please__ before saying that the code do not run,  try yourself.*
+ 
+ __Please__ before saying that the code do not run,  try it yourself.*
 
 ## Introduction
 
