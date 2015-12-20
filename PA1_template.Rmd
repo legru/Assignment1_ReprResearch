@@ -232,7 +232,7 @@ and
 The means and median do not differ.  Although this is somewhat surprising, in reality it is not because the missing values all concentrated in 8 days (2012-10-01 2012-10-08 2012-11-01 2012-11-04 2012-11-09 2012-11-10 2012-11-14
 2012-11-30) and in these days all values are replaced with the corresponding mean values.  As a consequence it woudl be rather suprising to find a major chance on the means and the median. 
 
-## *Are there differences in activity patterns between weekdays and weekends?
+## Are there differences in activity patterns between weekdays and weekends?
 
 __*For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.*__
 
@@ -254,7 +254,7 @@ data.estimated.we_wd$we_wd <- as.factor(data.estimated.we_wd$we_wd)
 ```
 
 
-__*2. Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). *__
+__*2. Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).*__
 
 
 

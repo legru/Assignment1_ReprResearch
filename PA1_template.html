@@ -228,7 +228,7 @@ histogram</code></pre>
 <p>The means and median do not differ. Although this is somewhat surprising, in reality it is not because the missing values all concentrated in 8 days (2012-10-01 2012-10-08 2012-11-01 2012-11-04 2012-11-09 2012-11-10 2012-11-14 2012-11-30) and in these days all values are replaced with the corresponding mean values. As a consequence it woudl be rather suprising to find a major chance on the means and the median.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
-<h2>*Are there differences in activity patterns between weekdays and weekends?</h2>
+<h2>Are there differences in activity patterns between weekdays and weekends?</h2>
 <p><strong><em>For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.</em></strong></p>
 <p><strong><em>1. Create a new factor variable in the dataset with two levels - “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.</em></strong></p>
 <pre class="r"><code># define constant labels for week end and week 
@@ -243,7 +243,7 @@ data.estimated.we_wd &lt;- mutate(data.estimated,
 # transform the we_wd variable in a factor
 # (strickly speakinng it is not needed, but it seems to be required by the homework)
 data.estimated.we_wd$we_wd &lt;- as.factor(data.estimated.we_wd$we_wd)</code></pre>
-<p><strong><em>2. Make a panel plot containing a time series plot (i.e. type = “l”) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). </em></strong></p>
+<p><strong><em>2. Make a panel plot containing a time series plot (i.e. type = “l”) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).</em></strong></p>
 <pre class="r"><code># compute the mean steps distinguishing week days and week ends
 mean.interval.steps &lt;- summarise(group_by(data.estimated.we_wd, 
                                           interval, 
